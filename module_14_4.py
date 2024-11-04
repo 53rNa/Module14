@@ -9,7 +9,7 @@ from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton, ReplyKeybo
 from crud_functions import get_all_products, initiate_db
 
 # Создаем экземпляр бота с API-токеном и диспетчера
-API_TOKEN = '7933847033:AAGwNQzC9IusxY1cIe0svYwfzevGXLMtFMQ'
+API_TOKEN = ''
 
 bot = Bot(token=API_TOKEN)
 storage = MemoryStorage()
