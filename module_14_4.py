@@ -189,8 +189,6 @@ async def send_calories(message: types.Message, state: FSMContext):
     await state.finish()
 
 
-# Остальной код остается без изменений...
-
 @dp.message_handler()
 async def all_messages(message):
     await message.answer('Введите команду /start, чтобы начать общение.')
